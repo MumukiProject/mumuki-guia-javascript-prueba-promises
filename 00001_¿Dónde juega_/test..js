@@ -1,9 +1,9 @@
-describe("Pruebas", function() {
-  it("Riquelme juega en boca", async () => {
+describe("", function() {
+  it("Riquelme juega en boca", function () => {
     const equipo = await obtenerEquipo('Riquelme');
     assert(equipo, 'Boca')
   })
-  it("Milito juega en Racing", async () => {
+  it("Milito juega en Racing", function () => {
     const equipo = await obtenerEquipo('Milito');
     assert(equipo, 'Racing')
   })
