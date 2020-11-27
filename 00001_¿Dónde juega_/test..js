@@ -4,7 +4,9 @@ describe("", function() {
     assert(equipo, 'Boca')
   })
   it("Milito juega en Racing", function() {
-    const equipo = await obtenerEquipo('Milito');
-    assert(equipo, 'Racing')
+    obtenerEquipo('Milito').then(function(equipo) {
+      assert(equipo, 'Racing')  
+    });
+    
   })
 })
