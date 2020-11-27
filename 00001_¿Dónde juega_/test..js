@@ -1,5 +1,5 @@
 describe("", function() {
-  it("Riquelme juega en boca", function () {
+  it("Riquelme juega en boca", function() {
     obtenerEquipo('Riquelme').then(function(equipo) {
       assert(equipo, 'Boca')  
     });
