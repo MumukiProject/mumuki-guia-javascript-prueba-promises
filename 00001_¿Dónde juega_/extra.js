@@ -10,5 +10,5 @@ let jugadores = [
     equipo: "Racing",
     nombre: "Milito",
     dato: "El mejor delantero que tuvo",
-  },
+  }
 ]
